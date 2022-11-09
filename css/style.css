@@ -1,10 +1,61 @@
+/* common style start  */
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Inter', sans-serif;
 }
 a{
     text-decoration: none;
+    display: inline-block;
 }
 ul{
     list-style: none;
 }
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.olive-green{
+    color: #477018 !important;
+}
+/* common style end  */
+
+
+/* navbar part start */
+header{
+    
+    background-color: #477018;
+}
+.heading{
+    color: white;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+nav .manu-bar{
+    display: flex;
+    align-items: center;
+}
+nav .manu-bar li {
+    padding: 0 34px;    
+}
+nav .logo ul{
+    display: flex;
+    align-items: center;
+}
+nav .logo ul li {
+    padding: 0 6px;
+}
+nav .logo ul li a {
+    color: black;
+}
+/* navbar part end  */
+
+
