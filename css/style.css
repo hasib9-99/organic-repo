@@ -53,7 +53,7 @@ nav .logo ul{
 nav .logo ul li {
     padding: 0 6px;
 }
-nav .logo ul li a {
+nav ul li a{
     color: black;
 }
 /* navbar part end  */
@@ -93,38 +93,42 @@ nav .logo ul li a {
 
 
 /* services part start */
-.cards{
-    display: flex;
-    justify-content: space-between;
+#services{
+    padding: 75px 0;
 }
-.card{
+.services__card{
     text-align: center;
     width: 267px;
     height: 320px;
     border: 0.5px solid #C9C9C9;
     border-radius: 25px;
-    margin: 75px auto;
+    margin: 0 auto;
 }
-.card i{
-    color: #F47606 ;
-}
-.card a{
+.services__card a{
     color: #F47606;
     font-size: 51px;
     margin: 0 auto;
     padding-top: 80px ;
 }
-.card h4{
+.services__card h4{
     padding-top: 30px;
     font-size: 25px;
 }
-.card p{
+.services__card p{
     font-size: 14px;
     color: #676767;
 }
-                               
-
-
-
-
 /* services part end */
+
+
+/* fluits-item part start*/
+#fruit-item{
+    margin: 75px 0;
+}
+.fruit__card p{
+    text-align: center;
+    padding: 13px 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* fluits-item part end */
