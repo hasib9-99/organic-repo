@@ -12,7 +12,7 @@ ul{
     list-style: none;
 }
 .container{
-    width: 1140px;
+    width: 1140px !important;
     margin: 0 auto;
 }
 .olive-green{
@@ -240,3 +240,38 @@ nav ul li a{
     color: #676767;
 }
 /* Why Choose Us part end */
+
+
+/* Fruits For Live Healthy part start */
+#health{
+    margin: 75px 0;
+}
+.health__banner{
+    background: url(../images/live-healthy.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.health__banner_heading{
+    padding: 92px 100px;
+}
+.health__banner_heading h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: #282828;
+}
+.health__banner_heading p{
+    color: #676767;
+    line-height: 28px;
+    padding: 20px 0;
+
+}
+.health__banner_heading a{
+    background-color: #477018;
+    color: white;
+    padding: 14px 50px;
+    border-radius: 10px;
+}
+
+
+/* Fruits For Live Healthy part end *
