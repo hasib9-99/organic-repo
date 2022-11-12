@@ -153,8 +153,6 @@ nav ul li a{
     color: #F47606;
 }
 .featured__card_img{
-    width: 364px;
-    height: 450px;
     position: relative;
 }
 
@@ -267,6 +265,29 @@ nav ul li a{
     padding: 14px 50px;
     border-radius: 10px;
 }
+/* Fruits For Live Healthy part end */
 
 
-/* Fruits For Live Healthy part end *
+/* Product part start */
+.product__heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.product__heading ul{
+    display: flex;
+    align-items: center;
+}
+.product__heading ul li{
+    padding: 12px;
+}
+.product__heading ul li:hover{
+    color: #FFAE00;
+}
+.product__cards{
+    padding-bottom: 24px;
+}
+
+
+
+/* Product part end */
