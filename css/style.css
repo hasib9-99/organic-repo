@@ -153,8 +153,6 @@ nav ul li a{
     color: #F47606;
 }
 .featured__card_img{
-    background: url(../images/featured_products/1.png) no-repeat center;
-    background-size: cover;
     width: 364px;
     height: 450px;
     position: relative;
@@ -172,9 +170,6 @@ nav ul li a{
 }
 .featured__card_img:hover.featured__card_img ul{
     z-index: 1;
-}
-.featured__card_img:hover{
-    background: linear-gradient(to right, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(../images/featured_products/1.png);
 }
 .featured__card_img ul a{
     margin: 0 6px;
