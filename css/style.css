@@ -269,10 +269,14 @@ nav ul li a{
 
 
 /* Product part start */
+#Product{
+    margin-bottom: 130px;
+}
 .product__heading{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 75px 0;
 }
 .product__heading ul{
     display: flex;
