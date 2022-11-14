@@ -295,6 +295,9 @@ nav ul li a{
 
 
 /* Deal of the week part start  */
+#deal{
+    margin-bottom: 64px;
+}
 .deal__main{
     display: flex;
     justify-content: space-between;
@@ -323,6 +326,17 @@ nav ul li a{
     background-color: #F9F9F9;
     color: #F47606;
 }
-
-
 /* Deal of the week part end  */
+
+
+/* Fresh vegetable & Fruit basket part start */
+.fresh__banner{
+    background: url(../images/fresh-vegetable.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Fresh vegetable & Fruit basket part end */
+
+
