@@ -291,7 +291,38 @@ nav ul li a{
 .product__cards{
     padding-bottom: 24px;
 }
-
-
-
 /* Product part end */
+
+
+/* Deal of the week part start  */
+.deal__main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.deal__main ul{
+    display: flex;
+    align-items: center;
+}
+.deal__main ul li{
+    margin-left: 40px;
+    padding: 10px;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
+}
+.deal__main ul li h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.deal__orenge_time{
+    background-color: #F47606;
+    color: white;
+}
+.deal__white_time{
+    background-color: #F9F9F9;
+    color: #F47606;
+}
+
+
+/* Deal of the week part end  */
