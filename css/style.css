@@ -344,6 +344,78 @@ Featured Products part  */
 
 
 /* Testimonial part start */
+.testimonial__main{
+    margin: 75px 0;
+}
+.testimonial__heading{
+    display: flex;
+    justify-content: space-between;
+}
+.testimonial__heading h2{
+    font-weight: 700;
+    font-size: 35px;
+}
+.testimonial__heading a{
+    font-weight: 400;
+    font-size: 16px;
+    color: #676767;
+}
+.testimonial__left{
+    height: 422px;
+    border: 1PX solid gray;
+    border-radius: 10px;
+    padding: 76px 45px;
+}
+.testimonial__left p{
+    padding: 30px 0;
+    color: #676767;
+    line-height: 28px;
+}
+.testimonia__right_top{
+    height: 45%;
+}
+.testimonial__pepole{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.testimonial__pepole_info{
+    padding-left: 20px;
+}
+.testimonial__pepole_info h4{
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+.testimonial__pepole_info p{
+    padding: 0 !important;
+    margin: 0;
+}
+.testimonia__right_top,
+.testimonia__right_bottom{
+    border: 2px solid #C9C9C9;
+    border-radius: 10px;
+    padding: 35px 45px;
+    height: 47%;
+}
+.testimonia__right_bottom{
+    margin-top: 24px;
+}
+.testimonia__right_top p{
+    color: #676767;
+}
+.testimonial__pepole picture{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 22px;
+    height: 19px;
+}
+.testimonial__pepole picture img{
+    width: 22px;
+    height: 19px;
+}
+
 
 /* Testimonial part end */
 
