@@ -420,3 +420,10 @@ Featured Products part  */
 /* Testimonial part end */
 
 
+/* Latest Blog part start */ 
+.card__heading{
+    align-items: center;
+    color: #676767;
+}
+
+/* Latest Blog part end */
