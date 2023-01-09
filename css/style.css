@@ -421,9 +421,39 @@ Featured Products part  */
 
 
 /* Latest Blog part start */ 
+#blogs{
+    margin-bottom: 100px;
+}
 .card__heading{
     align-items: center;
     color: #676767;
 }
+.blogs_hade h3{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    
+}
+.blogs__cards .card{
+    border: 0.5px solid gray;
+    border-radius: 10px !important;
+    margin-left: 10px;
+}
+.blogs__more{
+    color: #F47606;
+}
 
 /* Latest Blog part end */
+
+
+/* footer part start */
+
+
+
+
+
+
+
+
+
+/* footer part end */
