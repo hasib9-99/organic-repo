@@ -1,0 +1,95 @@
+@media(max-width:767.98px){
+    .container{
+        width: auto !important;
+    }
+    .heading{
+        justify-content: center;
+    }
+    nav{
+        display: none;
+    }
+    #banner{
+        height: 550px;
+        margin-bottom: 20px;
+    }
+    .main h2 {
+        font-size: 58px;
+        line-height: 54px;
+        width: auto;
+        text-align: center;
+    }
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .main p{
+        width: auto;
+        text-align: center;
+    }
+    .main a{
+        text-align: center;
+        display: inline-block;
+    }
+
+    #services{
+        padding: 0;
+    }
+    .services__card{
+        margin: 8px auto;
+        height: 150px;
+    }
+    .services__card a{
+        padding-top: 0;
+        font-size: 40px;
+    }
+    .services__card h4{
+        padding: 0;
+    }
+    #fruit-item{
+        margin: 0 auto;
+    }
+    .featured__heading h3{
+        font-size: 24px;
+    }
+    .featured__card_img img{
+        width: 100%;
+    }
+    .featured__card_img ul{
+        display: none;
+    }
+
+    #choose{
+        /* display: none; */
+    }
+    #Product{
+        display: none;
+    }
+    #health{
+        display: none;
+    }
+    #deal{
+        display: none;
+    }
+    #fresh{
+        display: none;
+    }
+    #testimonial{
+        display: none;
+    }
+    #blogs{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
+
+}
+@media(min-width:768px) and (max-width:991.98px){
+
+
+}
+@media(min-width:992px) and (max-width:1199.98px){
+
+
+}
