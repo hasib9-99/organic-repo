@@ -449,8 +449,82 @@ Featured Products part  */
 
 
 /* footer part start */
-
-
+footer{
+    background-color: #373C33;
+    padding: 130px 0;
+}
+.footer__main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__contact{
+    display: flex;
+    align-items: center;
+    padding: 21px 0;
+}
+.footer__main img{
+    padding-bottom: 15px;
+}
+.footer__icon {
+    color: white;
+    background-color: #477018;
+    padding: 17px 22px;
+    border-radius: 50%;
+    font-size: 26.11px;
+}
+.footer__contact__detels{
+    color: white;
+    margin-left: 30px;
+}
+.footer__contact__detels h4{
+    font-size: 20px;
+}
+.footer__service,
+.footer__categories,
+.footer__newsletter{
+    color: white;
+}
+.footer__service h4,
+.footer__categories h4,
+.footer__newsletter h4{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+}
+.footer__service ul,
+.footer__categories ul,
+.footer__newsletter ul{
+    padding: 40px 0;
+}
+.footer__service ul li,
+.footer__categories ul li,
+.footer__newsletter ul li{
+    color: rgba(255, 255, 255, 0.8);
+    padding-bottom: 16px;
+}
+.footer__newsletter ul input{
+    /* color: white; */
+    padding: 15px;
+    width: 329px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+}
+.footer__newsletter ul input::placeholder{
+    color: rgba(103, 103, 103, 0.36)
+}
+.footer__newsletter ul input:f{
+    border: transparent !important;
+}
+.footer__newsletter ul button{
+    color: white;
+    padding: 15px 28px;
+    border-radius: 10px;
+    background-color: #F47606;
+    font-weight: 600;
+    position: absolute;
+    transform: translate(-95px);
+    border: 1px solid transparent;
+}
 
 
 
