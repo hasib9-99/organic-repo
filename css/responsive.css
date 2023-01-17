@@ -73,6 +73,9 @@
     /* health part end  */
 
     /* Product part start  */
+    .product__heading{
+        padding: 16px 0;
+    }
     .product__heading ul{
         display: none;
     }
@@ -87,13 +90,23 @@
 
 
     /* deal part start  */
-
+    .deal__main{
+        display: block;
+    }
+    .deal__main ul {
+        justify-content: space-between;
+        padding: 0;
+        margin: 32px 0;
+    }
+    .deal__main ul li{
+        margin: 0;
+    }
 
     /* deal part end  */
     
     
     #fresh{
-        display: none;
+        /* display: none; */
     }
     #featured{
         display: none;
