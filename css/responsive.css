@@ -58,6 +58,7 @@
     .featured__card_img ul{
         display: none;
     }
+    /* health part start  */
     .health__banner_heading{
         text-align: center;
     }
@@ -68,16 +69,33 @@
     .health__banner_heading a{
         font-size: 14px;
         padding: 14px 40px;
-        
     }
-    #Product{
+    /* health part end  */
+
+    /* Product part start  */
+    .product__heading ul{
         display: none;
     }
+    .featured__card_shadw{
+        display: none;
+    }
+    .featured__card{
+        margin: 6px auto;
+    }
+
+    /* Product part end  */
+
+
+    /* deal part start  */
+
+
+    /* deal part end  */
     
-    #deal{
+    
+    #fresh{
         display: none;
     }
-    #fresh{
+    #featured{
         display: none;
     }
     #testimonial{
