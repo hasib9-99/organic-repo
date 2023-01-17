@@ -106,14 +106,18 @@
     }
 
     /* deal part end  */
-    
-    
-    #fresh{
-        /* display: none; */
+
+
+    /* featured part start  */
+    .featured__heading{
+        padding: 32px 0;
     }
-    #featured{
+    .featured__card_shadw{
         display: none;
     }
+
+    /* featured part end  */
+
     #testimonial{
         display: none;
     }
