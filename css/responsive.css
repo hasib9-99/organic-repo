@@ -118,8 +118,22 @@
 
     /* featured part end  */
 
+
+    /* testimonial part start  */
+    .testimonial__heading{
+        align-items: center;
+    }
+    .testomonial__right{
+        padding: 0;
+    }
+    .testimonial__left{
+        height: auto;
+        margin-bottom: 24px;
+    }
+    /* testimonial part end  */
+
     #testimonial{
-        display: none;
+        /* display: none; */
     }
     #blogs{
         display: none;
