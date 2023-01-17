@@ -244,6 +244,8 @@ nav ul li a{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    /* background-attachment: fixed */
+
 }
 .health__banner_heading{
     padding: 92px 100px;

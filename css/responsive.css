@@ -58,16 +58,22 @@
     .featured__card_img ul{
         display: none;
     }
-
-    #choose{
-        /* display: none; */
+    .health__banner_heading{
+        text-align: center;
+    }
+    
+    .health__banner_heading h2{
+        font-size: 30px;
+    }
+    .health__banner_heading a{
+        font-size: 14px;
+        padding: 14px 40px;
+        
     }
     #Product{
         display: none;
     }
-    #health{
-        display: none;
-    }
+    
     #deal{
         display: none;
     }
