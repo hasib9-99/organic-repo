@@ -62,7 +62,10 @@
     .health__banner_heading{
         text-align: center;
     }
-    
+     
+    .health__banner_heading{
+        padding: 32px 24px;
+    }
     .health__banner_heading h2{
         font-size: 30px;
     }
