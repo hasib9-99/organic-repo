@@ -123,6 +123,9 @@
     .testimonial__heading{
         align-items: center;
     }
+    .testimonial__main{
+        margin: 32px 0 0 0;
+    }
     .testomonial__right{
         padding: 0;
     }
@@ -132,14 +135,15 @@
     }
     /* testimonial part end  */
 
-    #testimonial{
-        /* display: none; */
-    }
-    #blogs{
-        display: none;
-    }
+    /* blogs part start  */
+
+
+    /* blogs part end  */
+
+    
+    
     footer{
-        display: none;
+        /* display: none; */
     }
 
 }
