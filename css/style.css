@@ -12,7 +12,7 @@ ul{
     list-style: none;
 }
 .container{
-    width: 1140px !important;
+    width: auto;
     margin: 0 auto;
 }
 .olive-green{
@@ -33,7 +33,7 @@ header{
     align-items: center;
 
 }
-nav{
+/* nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,7 +55,15 @@ nav .logo ul li {
 }
 nav ul li a{
     color: black;
+} */
+.navbar__icon{
+    display: flex;
 }
+.navbar__icon li a{
+    padding: 6px;
+    color: #477018;
+}
+
 /* navbar part end  */
 
 

@@ -5,8 +5,8 @@
     .heading{
         justify-content: center;
     }
-    nav{
-        display: none;
+    .nav_main{
+        flex-direction: row-reverse;
     }
     #banner{
         height: 550px;
@@ -135,17 +135,23 @@
     }
     /* testimonial part end  */
 
-    /* blogs part start  */
-
-
-    /* blogs part end  */
-
-    
-    
-    footer{
-        /* display: none; */
+    /* footer part start  */
+    .footer__main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__contact{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__contact__detels{
+        margin-left: 0;
+    }
+    .footer__icon{
+        margin: 6px;
     }
 
+    /* footer part end  */
 }
 @media(min-width:768px) and (max-width:991.98px){
 
